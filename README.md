@@ -1,1 +1,1 @@
-# erorrr
+# Galeri Likisbolkes serisekis
