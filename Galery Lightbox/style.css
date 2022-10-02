@@ -1,0 +1,73 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;500&display=swap');
+
+/*style*/
+body {
+  padding: 20px;
+  color: black;
+  background-color: #dddd;
+}
+
+h1 {
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 1px 1px 10px gray;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 700px;
+  height: 150px;
+  background-color: white;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,.5);
+  border-radius: 15px;
+}
+
+
+.foto li {
+  width: 107px;
+  height: 107px;
+  /* overflow: hidden; */
+  border: 2px solid black;
+  float: left;
+  margin-right: 10px;
+  position: relative;
+}
+
+.foto li,.foto li img,.foto li span {
+  border-radius: 50%;
+}
+
+.foto li span {
+  display: block;
+  width: 107px;
+  font-weight: bold;
+  height: 107px;
+  background-color: rgba(200,200,200,.5);
+  color: rgba(19, 19, 19, 0.867);
+  font-family: 'Bebas Neue';
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  line-height: 107px;
+  opacity: 0;
+  transition: .3s;
+}
+
+.foto li a:hover span {
+  opacity: 1;
+}
+
+/*Clear*/
+.clear {
+  clear: both;
+}
